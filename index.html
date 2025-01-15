@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books_key</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>BookSky</h1>
+    </div>
+
+    <div class="container">
+      <div class="book_container">
+        <h2>The Great Gatsby</h2>
+        <h5>F. Scott Fitzgerald</h5>
+        <p>
+          A tale of love, wealth, and betrayal set in the Roaring Twenties,
+          exploring the illusion of the American Dream.
+        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>To Kill a Mockingbird</h2>
+        <h5>Harper Lee</h5>
+        <p>
+          A powerful story of racial injustice and moral growth in the Deep South, seen through the eyes of a young girl.
+        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>Crime and Punishment</h2>
+        <h5>Fyodor Dostoevsky</h5>
+        <p>
+          A psychological exploration of guilt, morality, and redemption following a young man’s fateful decision to commit murder.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+
+      <div class="book_container">
+        <h2> Little Women</h2>
+        <h5>Louisa May Alcott</h5>
+        <p>
+          A heartwarming story of four sisters navigating love, ambition, and hardship during the American Civil War.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>The Catcher in the Rye</h2>
+        <h5> J.D. Salinger</h5>
+        <p>
+          A raw and poignant journey of teenage rebellion, alienation, and self-discovery in the bustling streets of New York.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>Brave New World</h2>
+        <h5>Aldous Huxley</h5>
+        <p>
+          A dystopian tale exploring a society where individuality is suppressed, and humanity’s future is shaped by science, technology, and rigid conformity.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>1984</h2>
+        <h5> George Orwell</h5>
+        <p>
+          A dystopian novel that delves into the dangers of totalitarianism and extreme political ideology.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+      <div class="book_container">
+        <h2>Jane Austen</h2>
+        <h5>Harper Lee</h5>
+        <p>
+          A romantic drama highlighting social norms, family values, and personal growth in 19th-century England.        </p>
+        <button onclick="deletebook(event)">Delete</button>
+      </div>
+
+    </div>
+
+    <div class="overlay"></div>
+    <div class="popup">
+      <h1>Add Book</h1>
+      <form>
+        <input type="text" placeholder="Book Title" id="book_title" /> <br />
+        <input type="text" placeholder="Book Author" id="book_author" /> <br />
+        <textarea
+          placeholder="Book Description"
+          id="book_description"
+        ></textarea>
+        <br />
+        <button id="add">ADD</button>
+        <button id="cancel">CANCEL</button>
+      </form>
+    </div>
+
+    <button class="add_button" id="add_button">+</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
