@@ -1,3 +1,8 @@
+## **Description:**
+
+   **This project is a Book Management Application that allows users to manage a collection of books. Users can: View a list of books with details such as title, author, and description. 
+   **Add new books via a popup form. Delete books from the list. Save and persist data locally using LocalStorage. 
+
 ## **Features:**
 
 1. **Book Display**: Displays a list of books with details like title, author, and description.
